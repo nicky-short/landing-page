@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    color: black;
+}
+
+.top-container {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.header {
+    background-color: rgb(13, 91, 23);
+    color: rgb(255, 255, 255);
+    display: flex;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    align-items: center;
+    padding: 16px;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.nms {
+    margin-left: 32px;
+    font-size: 24px;
+   
+
+}
+button {
+    color: rgb(13, 91, 23);  
+    
+    border: 1px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.book-now {
+    font-size: 18px;
+    margin-top: 16px;
+    width: 150px;
+    margin-left: 16px;
+
+}
+
+.header-links {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+.write-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    gap: 8px;
+    
+    
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(13, 91, 23);
+    padding-bottom: 40px;
+    padding-top: 20px;
+
+}
+
+
+
+
+.some-things-we-do {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.image-list {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 200px;
+    flex-wrap: wrap;
+    margin: 16px;
+    margin-top: 24px;
+    gap: 16px;
+
+}
+
+
+.box, .move, .van, .home {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 200px;
+gap: 8px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    padding: 75px;
+    padding-left: 150px;
+    padding-right: 150x;
+
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-style: italic;
+
+}
+
+.client {
+    align-self: flex-end;
+    font-weight: bold;
+}
+.attn-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.attention {
+    display: flex;
+    background-color: #f2fe64;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 36px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 24px;
+    border: 1px solid red;
+    margin-bottom: 48px;
+
+}
+
+
+.book-now2 {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(253, 0, 0);
+    border: 2px solid red;
+}
+
+.footer {
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(13, 91, 23);
+    color: white
+}
