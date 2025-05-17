@@ -175,14 +175,14 @@ gap: 8px;
     font-size: 14px;
     font-weight: 600;
     background-color: rgb(255, 255, 255);
-    color: rgb(253, 0, 0);
+    color: rgb(247, 93, 93);
     border: 1px solid red;
     cursor: pointer;
     padding: 10px;
 }
 
 #book-now2:hover {
-    background-color: red;
+    background-color: rgb(247, 93, 93);
     color: white;
 
 }
